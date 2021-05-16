@@ -7,29 +7,23 @@
 ### Links and Resources
 
 - [ci/cd](https://github.com/401-repos/basic-auth/actions)
-- [back-end server url]()
+- [back-end server url](https://basic-auth-401.herokuapp.com/)
 
 ### Setup
 
-#### `.env` requirements (where applicable)
+#### `.env` requirements
 
-i.e.
-
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+- `PORT`
+- `MONGODB_URI`
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- `npm install`
 
-#### How to use your library (where applicable)
+- `npm start`
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- `npm test`
 
 #### UML
-
-Link to an image of the UML for your application and response to events
