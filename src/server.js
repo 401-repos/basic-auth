@@ -12,7 +12,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use('/', userAuthRoute);
-
+app.get('/', (req, res) => {
+   res.send("Proof of life") 
+});
 app.use(errorHandler);
 app.use('*', notFound);
 
